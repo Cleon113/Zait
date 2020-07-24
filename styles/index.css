@@ -1,49 +1,135 @@
 /* ALL-START */
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* ALL-END */
 
+/* ICONS-START */
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?dkiz3g");
+  src: url("fonts/icomoon.eot?dkiz3g#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?dkiz3g") format("truetype"),
+    url("fonts/icomoon.woff?dkiz3g") format("woff"),
+    url("fonts/icomoon.svg?dkiz3g#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-instagram:before {
+  content: "\1f300";
+}
+.icon-icon-github:before {
+  content: "\e901";
+}
+.icon-icon-facebook:before {
+  content: "\e903";
+}
+
+/* ICONS-END */
+
 /* FOOTER-START */
 
 .content-footer {
-    padding: 0;
-    margin: 0;
-    background: rgb(66,113,81);
-    background: linear-gradient(0deg, rgba(66,113,81,1) 0%, rgba(34,23,65,1) 64%);
-
+  padding: 0;
+  margin: 0;
+  background: rgb(14, 66, 113);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 66, 113, 1) 0%,
+    rgba(245, 202, 202, 1) 77%
+  );
 }
 
-.footer{
-    display: flex;
-    color: wheat;
+.footer {
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.content-page{
-    display: block;
+.content-page {
+  display: block;
 }
 
 .content-page nav {
-    position: relative;
-    top: -70px;
+  position: relative;
+  top: -70px;
+  left: -32px;
 }
 
 .content-page nav li {
-    list-style: none;
-    margin: 10px;
+  list-style: none;
+  margin: 10px;
 }
 
 .content-page nav li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.follow_us{
-    display: block;
+.follow_us {
+  display: block;
+  text-align: left;
+  font-size: 21px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.contact_1 p, .contact_2 p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.contact div {
+  margin-right: 25px;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+}
+
+.students-platzi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.students-platzi span {
+  color: yellowgreen;
 }
 
 /* FOOTER-END */
