@@ -54,17 +54,17 @@ body {
 .content-footer {
   padding: 0;
   margin: 0;
-  background: rgb(14, 66, 113);
+  background: rgb(61, 36, 68);
   background: linear-gradient(
     0deg,
-    rgba(14, 66, 113, 1) 0%,
-    rgba(245, 202, 202, 1) 77%
+    rgba(61, 36, 68, 1) 0%,
+    rgba(23, 17, 55, 1) 77%
   );
 }
 
 .footer {
   display: flex;
-  color: black;
+  color: white;
   justify-content: space-around;
   align-items: center;
 }
@@ -81,14 +81,19 @@ body {
 
 .content-page nav li {
   list-style: none;
-  margin: 10px;
+  margin: 15px;
+}
+
+.content-page nav li:nth-child(3) {
+  border-top: 3px solid white;
+  padding-top: 6px;
 }
 
 .content-page nav li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .follow_us {
@@ -103,9 +108,10 @@ body {
   font-size: 25px;
 }
 
-.contact_1 p, .contact_2 p {
-    margin: 0;
-    padding-bottom: 10px;
+.contact_1 p,
+.contact_2 p {
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .contact div {
@@ -113,10 +119,10 @@ body {
 }
 
 .contact-social {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 30px;
 }
 
 .students-platzi {
@@ -125,7 +131,8 @@ body {
   align-items: center;
   color: white;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 6px solid #246d00;
+  background-color: #70381a7a;
 }
 
 .students-platzi span {
