@@ -1,0 +1,129 @@
+body {
+
+	background: url(https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png) no-repeat center top;
+    margin: 0;
+}
+
+#imgTop {
+    position: relative; 
+    z-index: 1; 
+    width:100%; 
+    height:100%;
+}
+
+#logo {
+    position: absolute;
+    z-index: 2; 
+    width: 400px; 
+    height: 110px;
+    left: 36.8%;
+    top: 28px;
+}
+
+#escribeButton {
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    left: 12.5%;
+    top: 8%;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#blogsButton {
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    right: 12.5%;
+    top: 8%;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#lineBottomEscribe {
+    position: absolute;
+    z-index: 2;
+    width: 22%;
+    height: 4px;
+    left: 9%;
+    top: 16%;
+    color: white;
+}
+
+#lineBottomBlogs {
+    position: absolute;
+    z-index: 2;
+    width: 22%;
+    height: 4px;
+    right: 7%;
+    top: 16%;
+    color: white;
+}
+
+.tituloBienvendia {
+    position: absolute;
+    z-index: 2; 
+    width: auto; 
+    height: 20%;
+    left: 17%;
+    top: 330px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    word-spacing: 0.5cm;
+    line-height: 3cm;
+}
+
+.iconoBeta {
+    position: fixed;
+    color: green;
+    text-decoration: none;
+    border-bottom: 2px solid green;
+    font-size: 45px;
+    z-index: 3;
+    right: 1%;
+    top: 0%;
+}
+
+.nube1 {
+    position: absolute;
+    z-index: 2;
+    left: -12%;
+    top: 86%;
+}
+
+.nube2 {
+    position: absolute;
+    z-index: 2;
+    left: 27%;
+    top: 93%;
+}
+
+.nube3 {
+    position: absolute;
+    z-index: 2;
+    right: 22%;
+    top: 94%;
+}
+
+.nube4 {
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 86%;
+} 
+
+.zaitLuna {
+    position: absolute;
+    z-index: 1;
+    left: -29%;
+    top: 125%;
+}
+
+.write_blogs {
+
+}
