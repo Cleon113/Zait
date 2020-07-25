@@ -61,6 +61,9 @@ body {
     rgba(23, 17, 55, 1) 77%
   ); */
   background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/734156940078219325/Fondo_Footer.png");
+	box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
+	-webkit-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
+	-moz-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
 }
 
 .footer {
@@ -93,13 +96,15 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .follow_us {
   display: block;
   text-align: left;
   font-size: 21px;
+  position: relative;
+  top: -11px;
 }
 
 .contact {
@@ -129,7 +134,7 @@ body {
 
 .contact-social {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   font-size: 30px;
 }
