@@ -54,12 +54,13 @@ body {
 .content-footer {
   padding: 0;
   margin: 0;
-  background: rgb(61, 36, 68);
+  /* background: rgb(61, 36, 68);
   background: linear-gradient(
     0deg,
     rgba(61, 36, 68, 1) 0%,
     rgba(23, 17, 55, 1) 77%
-  );
+  ); */
+  background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/734156940078219325/Fondo_Footer.png");
 }
 
 .footer {
@@ -67,33 +68,32 @@ body {
   color: white;
   justify-content: space-around;
   align-items: center;
+  height: 250px;
 }
 
+.zait-log img {
+    height: 80px;
+}
 .content-page {
   display: block;
 }
 
-.content-page nav {
-  position: relative;
-  top: -70px;
-  left: -32px;
-}
 
-.content-page nav li {
+.footer_nav li {
   list-style: none;
   margin: 15px;
 }
 
-.content-page nav li:nth-child(3) {
+.footer_nav li:nth-child(3) {
   border-top: 3px solid white;
   padding-top: 6px;
 }
 
-.content-page nav li a {
+.footer_nav li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 23px;
 }
 
 .follow_us {
@@ -112,6 +112,15 @@ body {
 .contact_2 p {
   margin: 0;
   padding-bottom: 10px;
+}
+
+.contact-social a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact_2 {
+  margin-left: 25px;
 }
 
 .contact div {
