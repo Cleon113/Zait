@@ -13,12 +13,14 @@ body {
  
 .main {
   background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990137019826197/FondoIndex.png");
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
 
 .after_main {
-	background-image: url(https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png) no-repeat center top;
+	background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png");
+  height: 100vh;
 }
 
 .logo {
