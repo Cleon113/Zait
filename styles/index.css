@@ -1,5 +1,6 @@
-body {
 
+body {
+    padding: 0;
     margin: 0;
 }
 
@@ -126,24 +127,31 @@ body {
     top: 86%;
 } 
 
+
+/* HEADER- END */
+
+
+/* ¿QUE ES ZAIT?-START */
+
 .zaitLuna {
-    position: absolute;
-    z-index: 1;
-    left: -29%;
-    top: 125%;
+  position: absolute;
+  z-index: 1;
+  left: -29%;
+  top: 125%;
 }
 
 .write_blogs {
 
 }
-/* ALL-START */
 
-body {
-  padding: 0;
-  margin: 0;
-}
+/* ¿QUE ES ZAIT?-END */
 
-/* ALL-END */
+
+/* ESCRIBE-BLOGS-START */
+
+
+/* ESCRIBE-BLOGS-END */
+
 
 /* ICONS-START */
 
