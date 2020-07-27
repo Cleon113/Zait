@@ -158,6 +158,31 @@ body {
 .write_blogs {
   margin-top: 100px;
 }
+
+.zait-description {
+  margin: 10px;
+   width: 480px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   overflow: hidden;
+   background: #f1f8fe;
+   text-align: center;
+   padding: 20px;
+   position: relative;
+   right: -53%;
+}
+
+.buttonZait {
+  border: 2px solid  #195570;
+  background-color: #d2eaf4;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #154454;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+
 .write, .blogs {
   text-align: center;
 }
@@ -183,9 +208,6 @@ body {
 } */
 /* ¿QUE ES ZAIT?-END */
 
-.zait-description {
-  display: block;
-}
 
 /* ESCRIBE-BLOGS-START */
 
