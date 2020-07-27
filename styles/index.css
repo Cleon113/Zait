@@ -26,6 +26,7 @@ body {
 	background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png");
   height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 
 .logo {
