@@ -161,7 +161,10 @@ body {
 
 /* ESCRIBE-BLOGS-START */
 
-
+.add-write_blog {
+  display: flex;
+  background-color: wheat;
+}
 /* ESCRIBE-BLOGS-END */
 
 
