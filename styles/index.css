@@ -2,6 +2,8 @@
 body {
     /* padding: 0px; */
     margin: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 /* #imgTop {
@@ -151,7 +153,7 @@ body {
 }
 
 .write_blogs {
-
+  margin-top: 100px;
 }
 
 /* ¿QUE ES ZAIT?-END */
