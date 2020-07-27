@@ -26,6 +26,7 @@ body {
 	background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png");
   height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -157,14 +158,26 @@ body {
 .write_blogs {
   margin-top: 100px;
 }
+.write, .blogs {
+  text-align: center;
+}
 
+/* .write {
+  margin-right: 100px;
+} */
 /* ¿QUE ES ZAIT?-END */
 
+.zait-description {
+  display: block;
+}
 
 /* ESCRIBE-BLOGS-START */
 
 .add-write_blog {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
   background-color: wheat;
 }
 /* ESCRIBE-BLOGS-END */
