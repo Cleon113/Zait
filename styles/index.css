@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 
 body {
     /* padding: 0px; */
@@ -39,6 +42,7 @@ body {
 }
 
 .escribeButton {
+  font-family: 'Fugaz One', cursive;
     position: absolute;
     z-index: 2;
     width: 300px;
@@ -55,6 +59,7 @@ body {
 
 
 .blogsButton {
+  font-family: 'Fugaz One', cursive;
     position: absolute;
     z-index: 2;
     width: 300px;
@@ -90,11 +95,12 @@ body {
 } 
 
 .tituloBienvendia {
+  font-family: 'Fugaz One', cursive;
     position: absolute;
     z-index: 2; 
     width: auto; 
     height: 20%;
-    left: 16%;
+    left: 13%;
     top: 325px;
     font-size: 40px;
     text-align: center;
@@ -159,7 +165,12 @@ body {
   margin-top: 100px;
 }
 
+.titleZait {
+  font-family: 'Fugaz One', cursive;
+}
+
 .zait-description {
+  font-family: 'Ubuntu', sans-serif;
   margin: 10px;
    width: 480px;
    flex-shrink: 0;
@@ -173,6 +184,7 @@ body {
 }
 
 .buttonZait {
+  font-family: 'Ubuntu', sans-serif;
   border: 2px solid  #195570;
   background-color: #d2eaf4;
   padding: 5px 20px;
@@ -211,7 +223,16 @@ body {
 
 /* ESCRIBE-BLOGS-START */
 
+.titleEscribe{
+  font-family: 'Fugaz One', cursive;
+}
+
+.titleBlogs {
+  font-family: 'Fugaz One', cursive;
+}
+
 .add-write_blog {
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -281,6 +302,7 @@ body {
 }
 
 .footer {
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   color: white;
   justify-content: space-around;
