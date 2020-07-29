@@ -174,6 +174,18 @@ body {
   margin-top: 100px;
 }
 
+.zaitLuna img {
+  width: 300px;
+}
+
+.moon_zait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  overflow: hidden;
+}
+
 .titleZait {
   font-family: 'Fugaz One', cursive;
 }
@@ -181,15 +193,12 @@ body {
 .zait-description {
   font-family: 'Ubuntu', sans-serif;
   margin: 10px;
-   width: 480px;
-   flex-shrink: 0;
-   border-radius: 10px;
-   overflow: hidden;
-   background: #f1f8fe;
-   text-align: center;
-   padding: 20px;
-   position: relative;
-   right: -53%;
+  margin-left: 5%;
+  background: #f1f8fe;
+  text-align: center;
+  padding: 20px;  
+  border-radius: 10px;
+
 }
 
 .buttonZait {
