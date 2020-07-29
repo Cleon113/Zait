@@ -169,12 +169,12 @@ body {
 
 /* ¿QUE ES ZAIT?-START */
 
-/* .zaitLuna {
-  position: absolute;
+.zaitLuna {
   z-index: 1;
-  left: -29%;
-  top: 125%;
-} */
+   width: 750px;
+   position: absolute;
+   right: 80%;
+}
 
 .write_blogs {
   margin-top: 100px;
