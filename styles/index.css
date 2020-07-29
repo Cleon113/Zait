@@ -163,26 +163,28 @@ body {
 
 /* ¿QUE ES ZAIT?-START */
 
-.zaitLuna {
+/* .zaitLuna {
+  position: absolute;
   z-index: 1;
-   width: 750px;
-   position: absolute;
-   right: 80%;
-}
+  left: -29%;
+  top: 125%;
+} */
 
 .write_blogs {
   margin-top: 100px;
 }
 
 .zaitLuna img {
-  width: 300px;
+  width: 700px;
+  left: -100px;
 }
  
 .moon_zait {
   display: flex;
+  z-index: 3;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -250,6 +252,7 @@ body {
 }
 
 .add-write_blog {
+  z-index: ;
   font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: space-evenly;
