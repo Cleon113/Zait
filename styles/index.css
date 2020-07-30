@@ -41,6 +41,8 @@ body {
 .logo {
   width: 400px;
   height: 110px;
+  position: relative;
+  top:25px;
 }
 
 
@@ -93,6 +95,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .tituloBienvendia1 img {
