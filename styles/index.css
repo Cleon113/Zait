@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 
+
 body {
     /* padding: 0px; */
     margin: 0px;
@@ -128,34 +129,6 @@ body {
     right: 1%;
     top: 0%;
 }
-
-.nube1 {
-    position: absolute;
-    z-index: 2;
-    left: -12%;
-    top: 80%;
-}
-
-.nube2 {
-    position: absolute;
-    z-index: 2;
-    left: 22%;
-    top: 86%;
-}
-
-.nube3 {
-    position: absolute;
-    z-index: 2;
-    right: 20%;
-    top: 86%;
-}
-
-.nube4 {
-    position: absolute;
-    z-index: 2;
-    right: 0%;
-    top: 75%;
-} 
 
 
 /* HEADER- END */
