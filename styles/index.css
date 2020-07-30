@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-.logo-header{
+.logo-header {
   width: 350px;
 }
 
@@ -43,37 +43,42 @@ body {
   height: 110px;
 }
 
-.hero {
-  font-family: "Fugaz One", cursive;
+
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  font-family: "Fugaz One", cursive;
 }
 
-.container {
+.menu {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 
 .escribeButton {
-  width: 300px;
-  height: auto;
+  width: 450px;
   font-size: 50px;
   text-decoration: none;
   color: white;
   display: flex;
-  border-bottom: 5px solid #194678;
+  border-bottom: 8px solid #194678;
   justify-content: center;
+  margin-right: 10%;
 }
 
 .blogsButton {
-  width: 300px;
-  height: auto;
+  width: 450px;
   font-size: 50px;
   text-decoration: none;
   color: white;
   display: flex;
-  border-bottom: 5px solid #194678;
+  border-bottom: 8px solid #194678;
   justify-content: center;
+  margin-left: 10%;
+
 }
 
 .tituloBienvendia1 {
@@ -86,10 +91,12 @@ body {
   word-spacing: 0.5cm;
   line-height: 3cm;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tituloBienvendia1 img {
-  width: 900px;
+  width: 750px;
 }
 
 .iconoBeta {
@@ -169,7 +176,6 @@ body {
   border: 2px solid blue;
   text-decoration: none;
 }
-
 
 /* ¿QUE ES ZAIT?-END */
 
