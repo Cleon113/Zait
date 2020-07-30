@@ -1,182 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 
 body {
-    /* padding: 0px; */
-    margin: 0px;
-    overflow: hidden;
-    overflow-y: scroll;
+  margin: 0px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: black; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #363795,
+    black
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #363795,
+    black
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
- 
+
 .main {
-  background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990137019826197/FondoIndex.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
   background-size: cover;
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-header{
+  width: 350px;
 }
 
 .after_main {
-	background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/735990902979428452/FondoPaginaZait.png");
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .logo {
-    position: absolute;
-    z-index: 1; 
-    width: 400px; 
-    height: 110px;
-    left: 36.8%;
-    top: 28px;
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+  height: 110px;
+  left: 36.8%;
+  top: 28px;
 }
 
 .escribeButton {
-  font-family: 'Fugaz One', cursive;
-    position: absolute;
-    z-index: 2;
-    width: 300px;
-    height: auto;
-    left: 10%;
-    top: 9%;
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    border-bottom: 5px solid #194678;
-    justify-content: center;
+  font-family: "Fugaz One", cursive;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: auto;
+  left: 10%;
+  top: 9%;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  border-bottom: 5px solid #194678;
+  justify-content: center;
 }
 
-
 .blogsButton {
-  font-family: 'Fugaz One', cursive;
-    position: absolute;
-    z-index: 2;
-    width: 300px;
-    height: auto;
-    right: 10%;
-    top: 9%;
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    border-bottom: 5px solid #194678;
-    justify-content: center;
+  font-family: "Fugaz One", cursive;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: auto;
+  right: 10%;
+  top: 9%;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  border-bottom: 5px solid #194678;
+  justify-content: center;
 }
 
 .lineBottomEscribe {
-    position: absolute;
-    z-index: 2;
-    width: 22%;
-    height: 4px;
-    left: 9%;
-    top: 16%;
-    color: white;
+  position: absolute;
+  z-index: 2;
+  width: 22%;
+  height: 4px;
+  left: 9%;
+  top: 16%;
+  color: white;
 }
-
-.lineBottomBlogs {
-    position: absolute;
-    z-index: 2;
-    width: 22%;
-    height: 4px;
-    right: 7%;
-    top: 16%;
-    color: white;
-} 
 
 .tituloBienvendia1 {
-  font-family: 'Fugaz One', cursive;
-    position: absolute;
-    z-index: 2; 
-    width: auto; 
-    height: 20%;
-    left: 13%;
-    top: 325px;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    word-spacing: 0.5cm;
-    line-height: 3cm;
-}
-
-.tituloBienvenida2 {
-  font-family: 'Fugaz One', cursive;
-    position: absolute;
-    z-index: 2; 
-    width: auto; 
-    height: 20%;
-    left: 42%;
-    top: 420px;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    word-spacing: 0.5cm;
-    line-height: 3cm;
+  font-family: "Fugaz One", cursive;
+  width: auto;
+  height: 20%;
+  left: 13%;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  word-spacing: 0.5cm;
+  line-height: 3cm;
 }
 
 .iconoBeta {
-    position: fixed;
-    color: green;
-    text-decoration: none;
-    border-bottom: 2px solid green;
-    font-size: 45px;
-    z-index: 3;
-    right: 1%;
-    top: 0%;
+  position: fixed;
+  color: green;
+  text-decoration: none;
+  border-bottom: 2px solid green;
+  font-size: 45px;
+  z-index: 3;
+  right: 1%;
+  top: 0%;
 }
-
 
 /* HEADER- END */
 
-
 /* ¿QUE ES ZAIT?-START */
-
-/* .zaitLuna {
-  position: absolute;
-  z-index: 1;
-  left: -29%;
-  top: 125%;
-} */
 
 .write_blogs {
   margin-top: 100px;
 }
 
 .zaitLuna img {
-  width: 300px;
+  height: 400px;
 }
- 
+
 .moon_zait {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 450px;
   overflow: hidden;
 }
 
 .titleZait {
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
 }
 
 .zait-description {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin: 10px;
   margin-left: 5%;
   background: #f1f8fe;
   text-align: center;
-  padding: 20px;  
+  padding: 20px;
   border-radius: 10px;
-
 }
 
 .buttonZait {
-  font-family: 'Ubuntu', sans-serif;
-  border: 2px solid  #195570;
+  font-family: "Ubuntu", sans-serif;
+  border: 2px solid #195570;
   background-color: #d2eaf4;
   padding: 5px 20px;
   text-decoration: none;
@@ -185,53 +158,50 @@ body {
   font-size: 22px;
 }
 
-
-.write, .blogs {
+.write,
+.blogs {
   text-align: center;
 }
 
-.write h3, .blogs h3 {
+.write h3,
+.blogs h3 {
   margin-top: 0;
 }
 
-.write p, .blogs p {
+.write p,
+.blogs p {
   margin-bottom: 40px;
 }
 
 .btn-write_blogs {
-
   color: black;
   padding: 10px;
-  border: 2px solid blue ;
+  border: 2px solid blue;
   text-decoration: none;
 }
 
-/* .write {
-  margin-right: 100px;
-} */
-/* ¿QUE ES ZAIT?-END */
 
+/* ¿QUE ES ZAIT?-END */
 
 /* ESCRIBE-BLOGS-START */
 
-.titleEscribe{
-  font-family: 'Fugaz One', cursive;
+.titleEscribe {
+  font-family: "Fugaz One", cursive;
 }
 
 .titleBlogs {
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
 }
 
 .add-write_blog {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 50vh;
-  background-color: #F8FAE5;
+  height: 400px;
+  background-color: #f8fae5;
 }
 /* ESCRIBE-BLOGS-END */
-
 
 /* ICONS-START */
 
@@ -280,20 +250,14 @@ body {
 .content-footer {
   padding: 0;
   margin: 0;
-  /* background: rgb(61, 36, 68);
-  background: linear-gradient(
-    0deg,
-    rgba(61, 36, 68, 1) 0%,
-    rgba(23, 17, 55, 1) 77%
-  ); */
   background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/734156940078219325/Fondo_Footer.png");
-	box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
-	-webkit-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
-	-moz-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5)  ; 
+  box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5);
+  -webkit-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5);
+  -moz-box-shadow: 0 -5px 9px rgba(81, 62, 201, 0.5);
 }
 
 .footer {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   color: white;
   justify-content: space-around;
@@ -302,12 +266,11 @@ body {
 }
 
 .zait-log img {
-    height: 80px;
+  height: 80px;
 }
 .content-page {
   display: block;
 }
-
 
 .footer_nav li {
   list-style: none;
