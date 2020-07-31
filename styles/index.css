@@ -117,40 +117,45 @@ body {
 }
 
 .zaitLuna img {
-  height: 400px;
+  height: 800px;
 }
 
 .moon_zait {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 700px;
   overflow: hidden;
 }
 
 .titleZait {
   font-family: "Fugaz One", cursive;
+  font-size: 50px;
 }
 
 .zait-description {
   font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  color: white;
   margin: 10px;
   margin-left: 5%;
-  background: #f1f8fe;
+  /* background: #f1f8fe; */
   text-align: center;
-  padding: 20px;
+  padding: 25px;
+  padding-top: 0px;
   border-radius: 10px;
 }
 
 .buttonZait {
   font-family: "Ubuntu", sans-serif;
-  border: 2px solid #195570;
-  background-color: #d2eaf4;
-  padding: 5px 20px;
+  font-size: 25px;
+  border: 2px solid #428ca5;
+  /* background-color: #d2eaf4; */
+  padding: 8px 20px 8px;
   text-decoration: none;
-  color: #154454;
+  color: #428ca5;
   border-radius: 5px;
-  font-size: 22px;
+  margin: 10px 10px 10px 10px;
 }
 
 .write, .blogs {
