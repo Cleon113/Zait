@@ -236,6 +236,7 @@ body {
 /* FOOTER-START */
 
 .content-footer {
+  margin-top: 100px;
   padding: 0;
   margin: 0;
   background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/734156940078219325/Fondo_Footer.png");
