@@ -95,6 +95,16 @@ body {
   height: 67vh;
 }
 
+.flechaAbajo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  padding-top: 0px;
+  border-radius: 10px;
+  margin: -146px;
+  margin-left: 41%;
+}
 
 .iconoBeta {
   position: fixed;
