@@ -180,10 +180,15 @@ body {
 }
 
 .btn-write_blogs {
-  color: black;
-  padding: 10px;
-  border: 2px solid blue;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  border: 2px solid #428ca5;
+  /* background-color: #d2eaf4; */
+  padding: 8px 20px 8px;
   text-decoration: none;
+  color: #428ca5;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
 }
 
 /* ¿QUE ES ZAIT?-END */
