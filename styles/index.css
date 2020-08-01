@@ -165,6 +165,12 @@ body {
   color: #428ca5;
   border-radius: 5px;
   margin: 10px 10px 10px 10px;
+  transition: .3s;
+}
+
+.buttonZait:hover {
+  color: white;
+  background-color: #428ca5;
 }
 
 .write, .blogs {
@@ -177,13 +183,26 @@ body {
 
 .write p, .blogs p {
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .btn-write_blogs {
-  color: black;
-  padding: 10px;
-  border: 2px solid blue;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #428ca5;
+  /* background-color: #d2eaf4; */
+  padding: 8px 20px 8px;
   text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  transition: .3s;
+
+}
+
+.btn-write_blogs:hover {
+  background-color: #428ca5;
+  color:white;
 }
 
 /* ¿QUE ES ZAIT?-END */
@@ -200,12 +219,18 @@ body {
 
 .add-write_blog {
   font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 400px;
-  background-color: #f8fae5;
+  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/696117494091612215/739245152413024277/thumb-1920-606900.jpg");
+  background-position-y: 70%;
+  background-position-x: -30px;
 }
+
 
 /* ESCRIBE-BLOGS-END */
 
