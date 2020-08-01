@@ -177,18 +177,27 @@ body {
 
 .write p, .blogs p {
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .btn-write_blogs {
   font-family: "Ubuntu", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   border: 2px solid #428ca5;
   /* background-color: #d2eaf4; */
   padding: 8px 20px 8px;
   text-decoration: none;
-  color: #428ca5;
   border-radius: 5px;
+  color: black;
   margin: 10px 10px 10px 10px;
+  background-color: #b792d3cf;
+
+  transition: .3s;
+
+}
+.btn-write_blogs:hover {
+  background-color: #428ca5;
+  color:white;
 }
 
 /* ¿QUE ES ZAIT?-END */
@@ -209,7 +218,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 400px;
-  background-color: #f8fae5;
+  background-color: #b792d3;
 }
 
 /* ESCRIBE-BLOGS-END */
