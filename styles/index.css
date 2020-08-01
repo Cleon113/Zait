@@ -4,11 +4,11 @@ body {
   margin: 0px;
   overflow: hidden;
   overflow-y: scroll;
-  background: black;
+  background: #00152c;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient( to top, #363795, black);
+  background: -webkit-linear-gradient( to top, #363795, #00152c);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient( to top, #363795, black);
+  background: linear-gradient( to top, #363795, #00152c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -46,6 +46,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Fugaz One", cursive;
+  
 }
 
 .menu {
@@ -63,6 +64,7 @@ body {
   border-bottom: 8px solid #194678;
   justify-content: center;
   margin-right: 10%;
+  
 }
 
 .blogsButton {
@@ -93,9 +95,6 @@ body {
   height: 67vh;
 }
 
-.tituloBienvendia1 img {
-  width: 750px;
-}
 
 .iconoBeta {
   position: fixed;
